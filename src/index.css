@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add outline to everything */
+/* * {
+  outline: 1px solid rgb(255, 53, 53) !important;
+  background: rgb(0 100 0 / 0.1);
+} */
+
+/* to hide website scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Animation for fall-1 */
+@keyframes fall-1 {
+  0% {
+    transform: translate(0px, 0px) rotateX(45deg) rotateY(30deg) rotateZ(0deg)
+      scale(0.25);
+    opacity: 0;
+  }
+  5% {
+    transform: translate(10px, -10px) rotateX(45deg) rotateY(30deg)
+      rotateZ(0deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(25px, 200px) rotateX(180deg) rotateY(270deg)
+      rotateZ(90deg) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Animation for fall-2 */
+@keyframes fall-2 {
+  0% {
+    transform: translate(0px, 0px) rotateX(-20deg) rotateY(10deg) scale(0.25);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-10px, -5px) rotateX(-20deg) rotateY(10deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-10px, 160px) rotateX(-90deg) rotateY(45deg)
+      scale(0.25);
+    opacity: 0;
+  }
+}
+
+/* Animation for fall-3 */
+@keyframes fall-3 {
+  0% {
+    transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(7px, 5px) rotateX(0deg) rotateY(45deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(20px, 120px) rotateX(-180deg) rotateY(-90deg)
+      scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes shrink-and-fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    bottom: -5rem;
+  }
+  100% {
+    bottom: 0;
+    top: 0rem;
+  }
+}
+
+.star {
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+}
+
+.glow {
+  box-shadow: 0rem 0rem 0.6rem 0.6rem purple;
+  pointer-events: none;
+  animation: shrink-and-fade 0.6s forwards;
+}
+
+.project-card .project-info {
+  transform: translateY(83%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover .project-info {
+  transform: translateY(0);
+}
+
+@keyframes moveSquare {
+  0% {
+    transform: translateY(180vh) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-30vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.square {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  position: absolute;
+  animation: moveSquare linear infinite;
+}
+
+@keyframes gradient-cycle {
+  0% {
+    background-color: red;
+    color: white;
+  }
+  25% {
+    background-color: blue;
+    color: yellow;
+  }
+  50% {
+    background-color: green;
+    color: black;
+  }
+  75% {
+    background-color: yellow;
+    color: blue;
+  }
+  100% {
+    background-color: red;
+    color: white;
+  }
+}
+
+.akcircle:hover {
+  animation: gradient-cycle 3s infinite;
+}
