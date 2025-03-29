@@ -1,5 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaTwitter,
+  FaGithub,
+  FaInstagram,
+  FaArrowAltCircleRight,
+} from "react-icons/fa";
 
 const Home = () => {
   const words = [
@@ -8,6 +14,9 @@ const Home = () => {
     "Frontend Developement",
     "Backend Developement",
     "Game Developement",
+    "Java Developement",
+    "Python Developement",
+    "Full Stack Developement",
   ];
 
   const typingSpeed = 120;
@@ -57,51 +66,76 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-row gap-x-16 justify-center mb-40 w-full h-full">
+    <div className="flex flex-row gap-x-16 justify-center mb-32 w-full h-full">
       <div className="text-left w-1/2 flex flex-col justify-center items-start">
-        <h1 className="text-5xl font-semibold mb-4">Hi There,</h1>
+        <h1 className="text-4xl font-semibold mb-4">Hi There,</h1>
         <h1 className="text-5xl font-semibold mb-4">
           I'm <span className="text-gold">Aswin K</span>
         </h1>
+
         <h2 className="text-2xl font-medium mb-4">
-          I Am Into{" "}
-          <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+          <span>I am into</span>
+          <span className="pl-2 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
             {displayedText}
           </span>
         </h2>
+
         <h4 className="text-justify text-lg font-light mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque
-          incidunt, quisquam esse labore facilis suscipit
+          Aspiring developer with a passion for problem-solving, seeking
+          opportunities to apply skills to innovative projects in the field.
         </h4>
-        <div className="flex gap-x-4 justify-center items-center w-fit h-fit mb-7">
-          <button
-            onClick={() =>
-              document
-                .getElementById("about")
-                .scrollIntoView({ behavior: "smooth" })
-            }
-            className="bg-secondaryalt z-20 hover:bg-transparent hover:text-secondaryalt text-colorbg px-6 py-2 rounded-lg border-2 border-secondaryalt"
-          >
-            About Me
-          </button>
-        </div>
+
+        <button
+          className="flex justify-center items-center px-3 py-2 mb-7 z-20 bg-secondaryalt hover:bg-transparent hover:text-secondaryalt text-colorbg rounded-lg border-2 border-secondaryalt"
+          onClick={() =>
+            document
+              .getElementById("about")
+              .scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          <span className="pr-2">About Me</span>
+          <FaArrowAltCircleRight size={20} />
+        </button>
+
         <div className="space-x-6 h-full flex justify-end">
-          <a href="#home" className="hover:text-blue-300">
+          <a
+            href="https://linkedin.com/in/aswinkarat/"
+            target="_blank"
+            className="hover:text-red-500"
+          >
             <FaLinkedin size={24} />
           </a>
-          <a href="#about" className="hover:text-blue-300">
+          <a
+            href="https://x.com/asterdev03/"
+            target="_blank"
+            className="hover:text-red-500"
+          >
             <FaTwitter size={24} />
           </a>
-          <a href="#projects" className="hover:text-blue-300">
+          <a
+            href="https://github.com/Asterdev-03/"
+            target="_blank"
+            className="hover:text-red-500"
+          >
             <FaGithub size={24} />
           </a>
-          <a href="#contact" className="hover:text-blue-300">
+          <a
+            href="https://www.instagram.com/aster_dev/"
+            target="_blank"
+            className="hover:text-red-500"
+          >
             <FaInstagram size={24} />
           </a>
         </div>
       </div>
+
       <div className="flex justify-center items-center z-20">
-        <img src="./assets/vite.svg" width="150px" className="" />
+        <div className="w-60 h-60 rounded-3xl overflow-hidden">
+          <img
+            src="./assets/myAvatar.jpg"
+            className="w-full h-full object-cover hover:scale-125 hover:-translate-y-8 hover:-translate-x-4 transition-transform duration-500"
+          />
+        </div>
       </div>
     </div>
   );

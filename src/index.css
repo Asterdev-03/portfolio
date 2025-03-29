@@ -77,7 +77,7 @@
   }
 }
 
-@keyframes moveUp {
+/* @keyframes moveUp {
   0% {
     bottom: -5rem;
   }
@@ -85,7 +85,7 @@
     bottom: 0;
     top: 0rem;
   }
-}
+} */
 
 .star {
   animation-duration: 500ms;
@@ -111,7 +111,7 @@
 @keyframes moveSquare {
   0% {
     transform: translateY(180vh) rotate(0deg);
-    opacity: 1;
+    opacity: 5;
   }
 
   100% {
@@ -124,6 +124,7 @@
   background: #4e54c8;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   position: absolute;
+  border-radius: 10%;
   animation: moveSquare linear infinite;
 }
 
@@ -152,4 +153,5 @@
 
 .akcircle:hover {
   animation: gradient-cycle 3s infinite;
+  cursor: default;
 }

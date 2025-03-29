@@ -13,7 +13,7 @@ const AnimatedBackground = () => {
   };
 
   const getRandomDelay = () => {
-    return Math.floor(Math.random() * 5 + 1);
+    return Math.floor(Math.random() * 5 + 5);
   };
 
   const createSquare = (index) => ({

@@ -6,21 +6,18 @@ const Contact = () => {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-48 lg:py-10">
         <div className="mb-4">
           <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-10">
-            <p className="text-xl font-extrabold uppercase tracking-wide text-blue-600">
-              Contact
+            <p className="text-4xl font-extrabold uppercase tracking-wide text-blue-600">
+              Contact Me
             </p>
-            <h2 className="font-heading font-bold tracking-tight text-gray-900 text-3xl sm:text-5xl">
-              Get in Touch
-            </h2>
           </div>
         </div>
-        <div className="flex items-stretch justify-center">
+        <div className="flex items-stretch justify-center mb-12">
           <div className="grid md:grid-cols-2">
             <div className="h-full pr-6">
               <p className="mt-3 mb-12 text-lg text-gray-600">
-                Feel free to reach out to <menu></menu> at any time, and I will
-                get back to you as soon as possible. Your satisfaction is my
-                priority, and I look forward to hearing from you.
+                Feel free to reach out to me at any time, and I will get back to
+                you as soon as possible. Your satisfaction is my priority, and I
+                look forward to hearing from you.
               </p>
               <ul className="mb-6 md:mb-0">
                 <li className="flex">
@@ -81,7 +78,7 @@ const Contact = () => {
               </ul>
             </div>
             <div
-              className="card h-fit max-w-6xl p-5 md:p-12 text-gray-900"
+              className="card h-fit max-w-6xl p-5 md:p-6 text-gray-900"
               id="form"
             >
               <h2 className="mb-4 text-2xl font-bold ">

@@ -9,6 +9,7 @@ import Footer from "./sections/Footer";
 import Navbar from "./components/FloatingNavbar";
 import TrailEffect from "./utils/TrailEffect";
 import Skills from "./sections/Skills";
+import Experience from "./sections/Experience";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <div className="">
         <Header />
         <Profile />
+        <Experience />
         <Projects />
         <Skills />
         <Contact />

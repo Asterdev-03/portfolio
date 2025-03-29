@@ -1,0 +1,99 @@
+{
+  "name": "Aswin K",
+  "mail": "",
+  "mobile": "",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "bio": ""
+  },
+  "summary": "",
+  "experience": [
+    {
+      "company": "BTC",
+      "role": "freelance",
+      "date": "",
+      "description": ""
+    },
+    {
+      "company": "BTC",
+      "role": "freelance",
+      "date": "",
+      "description": ""
+    },
+    {
+      "company": "BTC",
+      "role": "freelance",
+      "date": "",
+      "description": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lecturer's Assessment Portal",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/quiz-web-app",
+      "image1": "./assets/portfolio1.jpg"
+    },
+    {
+      "name": "C Algorithms & Snippets",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/C",
+      "image1": "./assets/portfolio2.jpg"
+    },
+    {
+      "name": "Companion AI",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/companion-ai",
+      "image1": "./assets/portfolio3.jpg"
+    },
+    {
+      "name": "Discord Bot",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Discord-Bot-JS",
+      "image1": "./assets/portfolio4.jpg"
+    },
+    {
+      "name": "Pig Jump",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Pig-Jump",
+      "image1": "./assets/portfolio5.png"
+    },
+    {
+      "name": "Minesweeper",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    },
+    {
+      "name": "Photos Management App",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    },
+    {
+      "name": "Snake Game",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    },
+    {
+      "name": "RPG Game",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    },
+    {
+      "name": "Survival Game",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    },
+    {
+      "name": "Space Shooter Game",
+      "desc": "Lorem ipsum dolor sit amet.",
+      "code": "https://github.com/Asterdev-03/Minesweeper",
+      "image1": "./assets/portfolio6.jpg"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 const projects = [
   {
-    name: "Lecturer's Assessment Portal",
+    name: "Photos Management App",
     desc: "Lorem ipsum dolor sit amet.",
     code: "https://github.com/Asterdev-03/quiz-web-app",
     image1: "./assets/portfolio1.jpg",
@@ -36,6 +36,30 @@ const projects = [
     desc: "Lorem ipsum dolor sit amet.",
     code: "https://github.com/Asterdev-03/Minesweeper",
     image1: "./assets/portfolio6.jpg",
+  },
+  {
+    name: "Snake Game",
+    desc: "Lorem ipsum dolor sit amet.",
+    code: "https://github.com/Asterdev-03/Minesweeper",
+    image1: "./assets/portfolio6.jpg",
+  },
+  {
+    name: "RPG Game",
+    desc: "Lorem ipsum dolor sit amet.",
+    code: "https://github.com/Asterdev-03/Minesweeper",
+    image1: "./assets/portfolio1.jpg",
+  },
+  {
+    name: "Survival Game",
+    desc: "Lorem ipsum dolor sit amet.",
+    code: "https://github.com/Asterdev-03/Minesweeper",
+    image1: "./assets/portfolio2.jpg",
+  },
+  {
+    name: "Space Shooter Game",
+    desc: "Lorem ipsum dolor sit amet.",
+    code: "https://github.com/Asterdev-03/Minesweeper",
+    image1: "./assets/portfolio3.jpg",
   },
 ];
 
